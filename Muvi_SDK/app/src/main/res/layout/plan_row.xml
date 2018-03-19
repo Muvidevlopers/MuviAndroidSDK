@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/subscriptionDetailsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subscriptionTitleTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/login_button_margin"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/relativeplannamelayout"
+                android:layout_width="@dimen/plainrowlayout_width"
+                android:layout_height="@dimen/plainrowlayout_height"
+                android:background="#1111"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/planNameTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Quarterly"
+                    android:textColor="@color/buttonTextColor"
+                    android:textSize="@dimen/itemtitle1_text_size" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lineardetails"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="#202020"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:id="@+id/planPurchaseCurrenyTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/videoGenreTextView_padding"
+                    android:text="$ "
+                    android:textColor="@color/pageTitleColor"
+                    android:textSize="@dimen/paymentOptionsTitle_textsize" />
+
+                <TextView
+                    android:id="@+id/planPurchaseValueTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="125 "
+                    android:layout_marginLeft="@dimen/videoCensorRatingTextView_margin"
+                    android:layout_marginRight="@dimen/videoCensorRatingTextView_margin"
+                    android:textColor="@color/button_background"
+                    android:textSize="@dimen/purchasevalue_text_size" />
+
+                <TextView
+                    android:id="@+id/planPurchaseMonthTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/planPurchaseMonthTextView_padding"
+                    android:text="(3 months )"
+                    android:textColor="@color/pageTitleColor"
+                    android:textSize="@dimen/itemtitle1_text_size" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/select_planMark"
+            android:layout_width="@dimen/plainmark_width"
+            android:layout_height="@dimen/plainmark_height"
+            android:layout_alignLeft="@+id/subscriptionDetailsTextView"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/subscriptionDetailsTextView"
+            android:layout_marginLeft="@dimen/select_planMark_margin"
+            android:layout_marginStart="@dimen/select_planMark_margin2"
+            android:layout_marginTop="@dimen/loginImageViewMarging_top"
+            android:background="@drawable/mark"
+            android:visibility="visible" />
+    </RelativeLayout>
+</RelativeLayout>

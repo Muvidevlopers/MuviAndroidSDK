@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.release.muvi.muvisdk.test" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="25" />
+
+    <instrumentation
+        android:name="android.support.test.runner.AndroidJUnitRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.release.muvi.muvisdk.test"
+        android:targetPackage="com.release.muvi.muvisdk.test" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true" >
+        <uses-library android:name="android.test.runner" />
+
+        <meta-data
+            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+            android:value="com.release.muvisdk.player.chromecast.CastOptionsProvider" />
+
+        <activity
+            android:name="com.release.muvisdk.player.chromecast.ExpandedControlsActivity"
+            android:configChanges="screenSize|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.CastVideosDark" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.release.muvisdk.player.chromecast.CastPreference"
+            android:label="@string/action_settings"
+            android:theme="@style/Theme.AppCompat" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.release.muvisdk.player.activity.PlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.release.muvisdk.player.activity.ThirdPartyPlayer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label=""
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.release.muvisdk.player.activity.YouTubeAPIActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label=""
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.release.muvisdk.player.activity.ResolutionChangeActivity"
+            android:configChanges="screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.release.muvisdk.player.activity.Subtitle_Resolution"
+            android:configChanges="screenSize|orientation"
+            android:label=""
+            android:screenOrientation="sensor"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.release.muvisdk.player.activity.ResumePopupActivity"
+            android:configChanges="screenSize|orientation"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.release.muvisdk.player.activity.SubtitleList"
+            android:configChanges="screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.release.muvisdk.player.activity.SdkMyDownloads"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.release.muvisdk.player.activity.MarlinBroadbandExample"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.release.muvisdk.player.activity.Sdk_TrailerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+
+        <service
+            android:name="com.release.muvisdk.player.service.PopUpService"
+            android:enabled="true" />
+        <service
+            android:name="com.release.muvisdk.player.service.DataConsumptionService"
+            android:enabled="true" />
+
+        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+
+        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.spotxchange.v3.view.SpotXActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.spotxchange.v3.view.InAppBrowserActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+    </application>
+
+</manifest>

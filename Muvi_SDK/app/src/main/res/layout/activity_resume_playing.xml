@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/popupLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginleft8dp"
+        android:layout_marginRight="@dimen/marginright8dp"
+        android:background="@drawable/resume_popup_radious"
+
+        android:orientation="vertical"
+        android:padding="@dimen/padding7dp">
+
+        <TextView
+            android:id="@+id/resumeTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="4"
+            android:singleLine="false"
+            android:textColor="@color/resumepopupcolor"
+            android:textSize="@dimen/resumetitle_text_size"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_height"
+            android:layout_margin="@dimen/recy_margin"
+            android:background="@color/nav_lineColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/marginright8dp"
+            android:layout_marginTop="@dimen/margintop8dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/yesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/login_maring_top"
+                android:background="@drawable/play_button_radious"
+                android:padding="@dimen/padding7dp"
+                android:stateListAnimator="@null"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="@dimen/button_textsize" />
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cancel_button_radious"
+                android:padding="@dimen/padding7dp"
+                android:stateListAnimator="@null"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="@dimen/button_textsize"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

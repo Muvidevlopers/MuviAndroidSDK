@@ -1,0 +1,650 @@
+[
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_notification_rewind.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_notification_rewind.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\radiobutton_style.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\radiobutton_style.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\radio_style.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\radio_style.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\edit_text_background.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\edit_text_background.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_mini_controller_closed_caption.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_mini_controller_closed_caption.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mr_ic_pause_dark.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d524d212f90336db837cd3a85dcc69fc93367d36\\output\\res\\drawable\\mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\close.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\close.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\progress_rawable.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\progress_rawable.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mr_ic_play_dark.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d524d212f90336db837cd3a85dcc69fc93367d36\\output\\res\\drawable\\mr_ic_play_dark.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_mini_controller_progress_drawable.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_mini_controller_progress_drawable.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\lollipop_spinner_theme.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\lollipop_spinner_theme.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\spinner_card_bg.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\spinner_card_bg.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_notification_rewind10.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_notification_rewind10.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\button_bg_orange.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\button_bg_orange.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\download_black.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\download_black.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_mini_controller_play_large.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_mini_controller_play_large.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_notification_forward.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_notification_forward.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\filter.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\filter.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\exomedia_default_controls_text_background.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\drawable\\exomedia_default_controls_text_background.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_notification_connecting.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\31a41edf8b21301061de55f9f10cc26a05382bf1\\output\\res\\drawable\\cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_mini_controller_stop_large.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_mini_controller_stop_large.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_mini_controller_skip_next.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_mini_controller_skip_next.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\card_background.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\card_background.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\favorite_unselected.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\favorite_unselected.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\no_image.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\no_image.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\logout.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\logout.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\view_more_button_background.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\view_more_button_background.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_radio_button_default.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_radio_button_default.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mr_ic_media_route_mono_light.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d524d212f90336db837cd3a85dcc69fc93367d36\\output\\res\\drawable\\mr_ic_media_route_mono_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\dialog_progress_rawable.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\dialog_progress_rawable.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_notification_skip_prev.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_notification_skip_prev.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\voucher_inactive_button.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\voucher_inactive_button.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\seekbar.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\seekbar.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\layout_background.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\layout_background.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_mini_controller_pause.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_mini_controller_pause.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_radio_button_selected.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_radio_button_selected.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\search.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\search.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\button_radious.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\button_radious.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\favorite.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\favorite.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d92322db9eeaf2cfdbf9fd40c96b9e9bd8418404\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_mini_controller_play.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_mini_controller_play.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_mini_controller_stop.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_mini_controller_stop.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_notification_disconnect.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_notification_disconnect.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_check_box_default.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_check_box_default.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mark.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\mark.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\purchase_history.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\purchase_history.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_notification_forward10.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_notification_forward10.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rating_custom_bar.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\rating_custom_bar.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\seekbar_background.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\seekbar_background.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\resume_popup_radious.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\resume_popup_radious.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_expanded_controller_skip_next.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_expanded_controller_skip_next.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_expanded_controller_rewind30.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_expanded_controller_rewind30.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_notification_stop_live_stream.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_notification_stop_live_stream.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_notification_rewind30.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_notification_rewind30.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\large_progress_bar.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\large_progress_bar.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\filterbg.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\filterbg.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\voucher_active_button.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\voucher_active_button.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\savecard_style.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\savecard_style.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_mini_controller_gradient_light.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_mini_controller_gradient_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\banner1.webp",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\banner1.webp"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\grid_color_selector.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\grid_color_selector.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d524d212f90336db837cd3a85dcc69fc93367d36\\output\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_notification_small_icon.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_notification_small_icon.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\fbbg.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\fbbg.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\thumb_drawable.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\thumb_drawable.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_back.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_back.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\login.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\login.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_expanded_controller_pause.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_expanded_controller_pause.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\language.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\language.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\exomedia_default_controls_interactive_background.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\drawable\\exomedia_default_controls_interactive_background.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d92322db9eeaf2cfdbf9fd40c96b9e9bd8418404\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mr_ic_settings_light.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d524d212f90336db837cd3a85dcc69fc93367d36\\output\\res\\drawable\\mr_ic_settings_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_mini_controller_mute.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_mini_controller_mute.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mr_ic_play_light.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d524d212f90336db837cd3a85dcc69fc93367d36\\output\\res\\drawable\\mr_ic_play_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_notification_forward30.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_notification_forward30.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_media_play.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_media_play.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_check_box_selected.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_check_box_selected.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_mini_controller_rewind30.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_mini_controller_rewind30.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\favorite_red.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\favorite_red.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\volume.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\volume.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_mini_controller_skip_prev.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_mini_controller_skip_prev.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\seekbar_progress.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\seekbar_progress.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d92322db9eeaf2cfdbf9fd40c96b9e9bd8418404\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\gradient_bg.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\gradient_bg.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_mini_controller_pause_large.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_mini_controller_pause_large.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_notification_skip_next.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_notification_skip_next.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_expanded_controller_play.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_expanded_controller_play.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\substract.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\substract.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cc_button_radious.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\cc_button_radious.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_expanded_controller_bg_gradient_light.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_expanded_controller_bg_gradient_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_expanded_controller_forward30.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_expanded_controller_forward30.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d92322db9eeaf2cfdbf9fd40c96b9e9bd8418404\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\register.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\register.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\star_blank.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\star_blank.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_corner_bg.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\a7036775f4f99b1a3db1645fc4d97e81f11482f6\\output\\res\\drawable\\indicator_corner_bg.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_expanded_controller_mute.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_expanded_controller_mute.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bg_border.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\bg_border.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brightness.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\brightness.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mr_ic_media_route_connecting_mono_light.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d524d212f90336db837cd3a85dcc69fc93367d36\\output\\res\\drawable\\mr_ic_media_route_connecting_mono_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\style_circular.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\style_circular.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mr_ic_pause_light.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d524d212f90336db837cd3a85dcc69fc93367d36\\output\\res\\drawable\\mr_ic_pause_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_notification_pause.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_notification_pause.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_expanded_controller_skip_previous.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_expanded_controller_skip_previous.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pre_order_button_radious.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\pre_order_button_radious.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d92322db9eeaf2cfdbf9fd40c96b9e9bd8418404\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d92322db9eeaf2cfdbf9fd40c96b9e9bd8418404\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_notification_play.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_notification_play.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mr_ic_settings_dark.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d524d212f90336db837cd3a85dcc69fc93367d36\\output\\res\\drawable\\mr_ic_settings_dark.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d92322db9eeaf2cfdbf9fd40c96b9e9bd8418404\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_expanded_controller_closed_caption.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_expanded_controller_closed_caption.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\transparent.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\transparent.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mr_ic_media_route_connecting_mono_dark.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d524d212f90336db837cd3a85dcc69fc93367d36\\output\\res\\drawable\\mr_ic_media_route_connecting_mono_dark.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cancel_button_radious.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\cancel_button_radious.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\edit.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\edit.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\spinner_arrow.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\spinner_arrow.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_media_pause.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_media_pause.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d92322db9eeaf2cfdbf9fd40c96b9e9bd8418404\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\play_button_radious.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\play_button_radious.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\subtitle_image.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\subtitle_image.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\star_filled.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\star_filled.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\spinner_theme.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\spinner_theme.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mr_ic_cast_light.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d524d212f90336db837cd3a85dcc69fc93367d36\\output\\res\\drawable\\mr_ic_cast_light.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cast_ic_mini_controller_forward30.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\drawable\\cast_ic_mini_controller_forward30.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_spinner.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_spinner.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mr_ic_cast_dark.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d524d212f90336db837cd3a85dcc69fc93367d36\\output\\res\\drawable\\mr_ic_cast_dark.xml"
+    }
+]

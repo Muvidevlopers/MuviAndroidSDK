@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/primary_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/Login_drawing_padding">
+
+        <TextView
+            android:id="@+id/transactionTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/loginImageViewMarging_top"
+            android:layout_marginLeft="@dimen/my_download_margin"
+            android:layout_marginTop="@dimen/loginImageViewMarging_top"
+            android:text="Transaction Details"
+            android:textColor="@color/pageTitleColor"
+            android:textSize="@dimen/transcationdetail_text_size"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/transactionDateLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/my_download_margin"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/transactionDateTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Transaction Date :"
+                android:textColor="@color/alreadyMemberTextColor"
+                android:textSize="@dimen/transcation_text_size" />
+
+            <TextView
+                android:id="@+id/transactionDateTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@color/alreadyMemberTextColor"
+                android:textSize="@dimen/transcation_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/transactionOrderLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/my_download_margin"
+            android:layout_marginTop="@dimen/my_download_margin"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/transactionOrderTitletextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Order Id :"
+                android:textColor="@color/alreadyMemberTextColor"
+
+                android:textSize="@dimen/transcation_text_size" />
+
+
+            <TextView
+                android:id="@+id/transactionOrdertextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/alreadyMemberTextColor"
+                android:textSize="@dimen/transcation_text_size" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/transactionAmountLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/my_download_margin"
+            android:layout_marginTop="@dimen/my_download_margin"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/transactionAmountTitletextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Amount :"
+                android:textColor="@color/alreadyMemberTextColor"
+
+                android:textSize="@dimen/transcation_text_size" />
+
+
+            <TextView
+                android:id="@+id/transactionAmounttextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/alreadyMemberTextColor"
+                android:textSize="@dimen/transcation_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/transactionInvoiceLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/my_download_margin"
+            android:layout_marginTop="@dimen/my_download_margin"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/transactionInvoiceTitletextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Invoice :"
+                android:textColor="@color/alreadyMemberTextColor"
+
+                android:textSize="@dimen/transcation_text_size" />
+
+
+            <TextView
+                android:id="@+id/transactionInvoicetextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/alreadyMemberTextColor"
+                android:textSize="@dimen/transcation_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/transactionStatusLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/my_download_margin"
+            android:layout_marginTop="@dimen/my_download_margin"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/transactionStatusTitletextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Transaction Status :"
+                android:textColor="@color/alreadyMemberTextColor"
+
+                android:textSize="@dimen/transcation_text_size" />
+
+
+            <TextView
+                android:id="@+id/transactionStatustextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@color/alreadyMemberTextColor"
+                android:textSize="@dimen/transcation_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/transactionPLanNameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/my_download_margin"
+            android:layout_marginTop="@dimen/my_download_margin"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/transactionPlanNameTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Plan Name :"
+                android:textColor="@color/alreadyMemberTextColor"
+                android:textSize="@dimen/transcation_text_size" />
+
+
+            <TextView
+                android:id="@+id/transactionPlanNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/alreadyMemberTextColor"
+                android:textSize="@dimen/transcation_text_size" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/transactionDownloadButton"
+            android:layout_width="@dimen/transcationbtn_width"
+            android:layout_height="@dimen/transcationbtn_height"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/loginImageViewMarging_top"
+            android:background="@drawable/button_radious"
+            android:paddingLeft="@dimen/transactionDownloadButton_padding"
+            android:paddingRight="@dimen/transactionDownloadButton_padding"
+            android:stateListAnimator="@null"
+            android:text="DOWNLOAD"
+            android:textAllCaps="false"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="@dimen/login_text_size" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/noInternet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:padding="@dimen/manage_device_padding"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/no_internet_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tryAgainButton"
+            android:gravity="center"
+            android:maxLines="4"
+            android:singleLine="false"
+            android:text="No Internet Connection / No Data"
+            android:textColor="@color/noInternetColor"
+            android:textSize="@dimen/testview_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/tryAgainButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/button_background"
+            android:padding="@dimen/manage_device_padding"
+            android:text="Try again !"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="@dimen/tryagainbtn_text_size" />
+    </RelativeLayout>
+
+</LinearLayout>

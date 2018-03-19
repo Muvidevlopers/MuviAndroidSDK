@@ -1,0 +1,170 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="castcrew_text">22sp</dimen>
+    <dimen name="videoTitle_textview">21sp</dimen>
+    <dimen name="catlist_text_size">24sp</dimen>
+    <dimen name="list_card_height">200dp</dimen>
+    <dimen name="list_card_width">137dp</dimen>
+    <dimen name="toolbar_logo_width">108dp</dimen>
+    <dimen name="toolbar_logo_height">58dp</dimen>
+
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="txt">19sp</dimen>
+    <dimen name="imgheight">300dp</dimen>
+    <dimen name="imgwidth">300dp</dimen>
+    <dimen name="navwide">300dp</dimen>
+    <dimen name="toolbarheight">70dp</dimen>
+    <dimen name="singleimgwidth">130dp</dimen>
+    <dimen name="singleimgheight">186dp</dimen>
+    <dimen name="buttonheight">42dp</dimen>
+    <dimen name="titletxt">17sp</dimen>
+    <dimen name="indicatorheight">330dp</dimen>
+    ////details layout
+    <dimen name="trailer_btn_text_size">14sp</dimen>
+    <dimen name="play_icon_height">80dp</dimen>
+    <dimen name="filter_marginLeft">50dp</dimen>
+    <dimen name="play_icon_width">80dp</dimen>
+
+    <dimen name="movieimg_width">160dp</dimen>
+    <dimen name="movieimg_height">202dp</dimen>
+    <dimen name="view_margin_top">10dp</dimen>
+
+    <dimen name="btnmore_text_size">16sp</dimen>
+    <dimen name="forgot_logo_width">200dp</dimen>
+    <dimen name="forgot_logo_height">200dp</dimen>
+    <dimen name="email_text_size">14sp</dimen>
+    <dimen name="edit_text_size">18sp</dimen>
+    <dimen name="login_text_size">20sp</dimen>
+    <dimen name="submit_text_size">14sp</dimen>
+    <dimen name="pass_text_size">18sp</dimen>
+    <dimen name="forgot_text_size">18sp</dimen>
+    <dimen name="login_butn_width">160dp</dimen>
+    <dimen name="login_butn_height">60dp</dimen>
+    <dimen name="fb_text_size">20sp</dimen>
+    <dimen name="login_newuser_size">18sp</dimen>
+    <dimen name="signup_textsize">18sp</dimen>
+    <dimen name="alreadymember_text_size">18sp</dimen>
+    <dimen name="already_login_size">19sp</dimen>
+    <dimen name="register_button">20sp</dimen>
+    <dimen name="changepas_edittest">20sp</dimen>
+    <dimen name="user_text_size">30sp</dimen>
+    <dimen name="preorderbtn_width">98dp</dimen>
+    <dimen name="preorderbtn_height">40dp</dimen>
+    <dimen name="trailerbtn_text_size">16sp</dimen>
+    <dimen name="vdioduration_text_size">16sp</dimen>
+    <dimen name="vdiogenere_text_size">17sp</dimen>
+    <dimen name="vdiotitle_text_size">17sp</dimen>
+    <dimen name="vdiocast_text_size">18sp</dimen>
+    <dimen name="btnmore_width">98dp</dimen>
+    <dimen name="btnmore_height">40dp</dimen>
+    <dimen name="banerimg_height">300dp</dimen>
+    <dimen name="vdiotitle1_text_size">20sp</dimen>
+    <dimen name="homefrag_height">310dp</dimen>
+    <dimen name="banner_image_height">300dp</dimen>
+    <dimen name="slider_height">335dp</dimen>
+    <dimen name="subtitle_width">33dp</dimen>
+    <dimen name="subtitle_height">28dp</dimen>
+    <dimen name="compress_width">21dp</dimen>
+    <dimen name="compress_height">21dp</dimen>
+    <dimen name="videotitle_text_size">20sp</dimen>
+    <dimen name="paymentOptionsTitle_textsize">24sp</dimen>
+    <dimen name="subscription_text_size">25sp</dimen>
+    <dimen name="chargedetail_text_size">18sp</dimen>
+    <dimen name="card_no_height">55dp</dimen>
+    <dimen name="card_expiry_width">130dp</dimen>
+    <dimen name="card_expiry_height">60dp</dimen>
+    <dimen name="card_expiryyear_width">170dp</dimen>
+    <dimen name="card_expiryyear_height">60dp</dimen>
+    <dimen name="securitycode_width">180dp</dimen>
+    <dimen name="securitycode_height">60dp</dimen>
+    <dimen name="savecard_text_size">18sp</dimen>
+    <dimen name="paybtn_height">50dp</dimen>
+    <dimen name="nameoncard_height">55dp</dimen>
+    <dimen name="creditcarddetail_text_size">24sp</dimen>
+    <dimen name="coupancode_height">55dp</dimen>
+    <dimen name="coupanbtn_height">50dp</dimen>
+    <dimen name="purchase_text_size">24sp</dimen>
+    <dimen name="transcationdetail_text_size">26sp</dimen>
+    <dimen name="transcation_text_size">22sp</dimen>
+    <dimen name="transcationbtn_width">200dp</dimen>
+    <dimen name="transcationbtn_height">55dp</dimen>
+    <dimen name="transcationtitle_text_size">22sp</dimen>
+    <dimen name="transcationview_text_size">17sp</dimen>
+    <dimen name="transcationshowprice_text_size">30sp</dimen>
+    <dimen name="episodelayout_width">175dp</dimen>
+    <dimen name="episodelayout_height">98dp</dimen>
+    <dimen name="episodesectiontitle_text_size">22sp</dimen>
+    <dimen name="fragmentimgview_width">200dp</dimen>
+    <dimen name="fragmentimgview_height">200dp</dimen>
+    <dimen name="contactformtitle_text_size">17sp</dimen>
+    <dimen name="editbox_text_size">18sp</dimen>
+    <dimen name="home280_layout_width">183dp</dimen>
+    <dimen name="videogrid_width">140dp</dimen>
+    <dimen name="videogrid_height">200dp</dimen>
+    <dimen name="videogrid_land_width">182dp</dimen>
+    <dimen name="videogrid_land_height">101dp</dimen>
+    <dimen name="plainrowlayout_height">100dp</dimen>
+    <dimen name="plainrowlayout_width">130dp</dimen>
+    <dimen name="purchasevalue_text_size">60sp</dimen>
+    <dimen name="purchasemonth_text_size">18sp</dimen>
+    <dimen name="video280_width">185dp</dimen>
+    <dimen name="video280_height">103dp</dimen>
+    <dimen name="listitemlayout_height">430dp</dimen>
+    <dimen name="itemtitle_text_size">21sp</dimen>
+    <dimen name="left_padding">10dp</dimen>
+    <dimen name="right_padding">10dp</dimen>
+    <dimen name="login_padding">10dp</dimen>
+    <dimen name="forgotlayout_margin">10dp</dimen>
+    <dimen name="registerlayout_padding">10dp</dimen>
+    <dimen name="changepas_height">50dp</dimen>
+    <dimen name="registerimg_margin_top">300dp</dimen>
+    <dimen name="layout_padding_left">40dp</dimen>
+    <dimen name="layout_padding_right">40dp</dimen>
+    <dimen name="register_edittext_padding">17dp</dimen>
+    <dimen name="register_margin_top">40dp</dimen>
+    <dimen name="cast_width_icon">150dp</dimen>
+    <dimen name="cast_height_icon">130dp</dimen>
+    <dimen name="itemtitle1_text_size">16sp</dimen>
+    <dimen name="homelogo_height">87dp</dimen>
+    <dimen name="homelogo_width">185dp</dimen>
+    <dimen name="plainrow_mrgin_top">20dp</dimen>
+    <dimen name="yearline_text_size">70sp</dimen>
+    <dimen name="preorderbtn_padding">20dp</dimen>
+    <dimen name="registerbtn_height">40dp</dimen>
+    <dimen name="submit_width_size">210dp</dimen>
+
+    <dimen name="cast_details_width">200dp</dimen>
+    <dimen name="cast_details_height">200dp</dimen>
+    <dimen name="cast_textsize">17sp</dimen>
+    <dimen name="cast_btn_textsize">16sp</dimen>
+    <dimen name="border_line_height">1dp</dimen>
+    <dimen name="review_text_size">18sp</dimen>
+    <dimen name="review_edittext_size">16sp</dimen>
+    <dimen name="review_btn_width">90dp</dimen>
+    <dimen name="review_btn_height">38dp</dimen>
+    <dimen name="review_btn_textsize">14sp</dimen>
+    <dimen name="toastmsg_padding">10dp</dimen>
+    <dimen name="user_review_textsize">14sp</dimen>
+
+    <dimen name="plainrow_text_size">20sp</dimen>
+
+    <!--new dimen optimization for layouts-->
+
+    <!--list item layout small and list item-->
+    <dimen name="viewmore_btn_width">100dp</dimen>
+    <dimen name="viewmore_btn_height">45dp</dimen>
+    <dimen name="viewmore_text_size">14sp</dimen>
+    <dimen name="homescreen_title_text_size">16sp</dimen>
+    <dimen name="list_singlecard_img_width">108dp</dimen>
+    <dimen name="list_singlecard_img_height">154dp</dimen>
+    <dimen name="movie_videotitle_size">17sp</dimen>
+    <dimen name="gridbottom8dp">8dp</dimen>
+    <!---this is for facebook button padding-->
+    <dimen name="facebook_padding">0dp</dimen>
+</resources>
+

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v11\\mr_ic_media_route_on_1_holo_dark.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v11\\mr_ic_media_route_on_1_holo_dark.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v11\\ic_stat_action_notification.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v11\\ic_stat_action_notification.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v11\\mr_ic_media_route_on_holo_dark.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v11\\mr_ic_media_route_on_holo_dark.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v11\\ic_stat_hardware_headphones.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v11\\ic_stat_hardware_headphones.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v11\\mr_ic_media_route_disabled_holo_dark.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v11\\mr_ic_media_route_disabled_holo_dark.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v11\\mr_ic_media_route_on_2_holo_dark.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v11\\mr_ic_media_route_on_2_holo_dark.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v11\\mr_ic_media_route_off_holo_dark.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v11\\mr_ic_media_route_off_holo_dark.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v11\\mr_ic_media_route_on_0_holo_dark.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v11\\mr_ic_media_route_on_0_holo_dark.png"
+    }
+]

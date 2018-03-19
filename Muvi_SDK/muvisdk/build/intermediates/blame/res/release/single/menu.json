@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\menu\\sdk_menu_main.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\menu\\sdk_menu_main.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\menu\\expanded_controller.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\menu\\expanded_controller.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\menu\\popup_add_to_queue.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\menu\\popup_add_to_queue.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\menu\\player.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\menu\\player.xml"
+    }
+]

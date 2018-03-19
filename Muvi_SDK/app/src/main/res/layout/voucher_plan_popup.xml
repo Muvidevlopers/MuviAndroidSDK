@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/languagePopupFadeColor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ppv_margin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/Login_drawing_padding">
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/pre_order_button_margin"
+                android:text="Select Purchase Type"
+                android:textColor="@color/pageTitleColor"
+                android:textSize="@dimen/vdiotitle1_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/voucher_pop_up_height"
+                android:layout_below="@+id/heading"
+                android:layout_marginBottom="@dimen/ppv_margin"
+                android:layout_marginTop="@dimen/name_user_margin_bottom"
+                android:background="@color/textColor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/textColor_margin"
+            android:paddingLeft="@dimen/Login_drawing_padding">
+
+            <RadioButton
+                android:id="@+id/completeRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Show"
+                android:textColor="@color/pageTitleColor"
+                android:textSize="@dimen/vdiotitle_text_size" />
+            <!--  android:button="@drawable/radiobutton_style"-->
+
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/voucher_pop_up_margin"
+            android:paddingLeft="@dimen/Login_drawing_padding">
+
+            <RadioButton
+                android:id="@+id/seasonRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Season"
+                android:textColor="@color/pageTitleColor"
+                android:textSize="@dimen/vdiotitle_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/voucher_pop_up_margin"
+            android:paddingLeft="@dimen/Login_drawing_padding">
+
+            <RadioButton
+                android:id="@+id/episodeRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Episode"
+                android:textColor="@color/pageTitleColor"
+                android:textSize="@dimen/vdiotitle_text_size" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/payNowButton"
+            android:layout_width="@dimen/okbtn_width"
+            android:layout_height="@dimen/registerbtn_height"
+            android:layout_gravity="right"
+            android:layout_marginBottom="@dimen/payment_relative_margin"
+            android:layout_marginRight="@dimen/payment_relative_margin"
+            android:background="@drawable/button_radious"
+            android:gravity="center"
+            android:stateListAnimator="@null"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textColor="@color/pageTitleColor"
+            android:textSize="@dimen/cast_name_text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/pop_up_view_height"
+            android:background="@color/border_color" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <!-- <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/navIconImageView"
+         android:src="@drawable/ic_search"/>-->
+    <TextView
+        android:id="@+id/textViewLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:layout_marginBottom="@dimen/textColor_margin"
+        android:layout_marginLeft="@dimen/payment_textview_showname_margin"
+        android:layout_marginRight="@dimen/payment_textview_showname_margin"
+        android:layout_marginTop="@dimen/textColor_margin"
+        android:background="@color/nav_text_line_color"
+        android:padding="@dimen/main_padding" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/current_time_margin_bottom"
+        android:gravity="left"
+        android:text=""
+        android:textColor="@color/nav_drawer_text_Color"
+        android:textSize="@dimen/nav_drawer_text_size"
+        android:textStyle="bold" />
+    <!-- <TextView
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:padding="8dp"
+
+         android:background="@color/black"
+         />
+ -->
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/languagePopupColor"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/loginImageViewMarging_top_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/languagePopupFadeColor"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/languagePopupTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/videoCensorRatingTextView_margin"
+                android:layout_marginLeft="@dimen/pre_order_button_margin"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="@dimen/login_button_margin"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/languagepop_text_size"
+                android:textStyle="bold"
+                android:gravity="start" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ppv_margin"
+                android:paddingLeft="@dimen/Login_drawing_padding"
+                android:paddingRight="@dimen/Login_drawing_padding">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/language_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/apply_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/applybtn_height"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/payment_relative_margin"
+                android:layout_marginTop="@dimen/ppv_margin"
+                android:background="@drawable/button_radious"
+                android:gravity="center_horizontal|center"
+                android:stateListAnimator="@null"
+                android:textColor="@color/buttonTextColor"
+                android:textSize="@dimen/applybtn_text_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/lineTextView_height"
+            android:background="@color/border_color" />
+    </LinearLayout>
+</LinearLayout>

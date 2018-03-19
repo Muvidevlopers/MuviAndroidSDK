@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <!--added for app background color by bishal-->
+ <color name="background_start_color">#fff</color>
+ <color name="background_end_color">#fff</color>
+ <color name="seasonBackgroundColor">#fff</color>
+ <color name="appBackgroundColor">#fff</color>
+ <color name="textColor">#000000</color>
+ <color name="player_title_color">#000000</color>
+ <color name="videotextColor">#000000</color>
+ <color name="checkboxcolor">#000000</color>
+ <color name="cast_description_color">#000</color>
+ <color name="videotitleColor">#000000</color>
+ <color name="loginTextViewColor">#0cb9f2</color>
+ <color name="buttonTextColor">#fff</color>
+ <color name="forgotPasswordTextViewColor">#0cb9f2</color>
+ <color name="fb_text_color">#fff</color>
+ <color name="login_new_user_text_color">#757575</color>
+ <color name="sign_up_text_color">#0cb9f2</color>
+ <color name="hint_color">#737373</color>
+ <color name="alreadyMemberTextColor">#757575</color>
+ <color name="toolbarTitleColor">#fff</color>
+ <color name="disableTextColor">#50757575</color>
+ <color name="OsTextColor">#757575</color>
+ <color name="aboutustestcolor">#fff</color>
+ <color name="alreadyHaveALoginButtonTextColor">#0cb9f2</color>
+ <color name="border_color">#0cb9f2</color>
+ <color name="cancel_button_text_color">#0cb9f2</color>
+ <color name="transparent">@android:color/transparent</color>
+ <color name="castCrewTitleTextColor">#669900</color>
+ <color name="FilterTitleTextColor">#669900</color>
+ <color name="subtitleListColor">#fff</color>
+ <color name="episodeBackgroundColor">#f5f4f4</color>
+ <color name="preOrderButtonTextColor">#DDD</color>
+ <color name="spinnerDropDownListColor">#000</color>
+ <color name="leftMenuBackground">#fff</color>
+ <color name="colorPrimary">#0cb9f2</color>
+ <color name="navlogobackgroundcolor">#0cb9f2</color>
+ <color name="colorPrimaryDark">#0cb9f2</color>
+ <color name="languagePopupColor">#fff</color>
+ <color name="languagePopupFadeColor">#50696969</color>
+ <color name="filterTextColor">#5c6873</color>
+ <color name="nav_drawer_lineColor">#000</color>
+ <color name="nav_lineColor">#000</color>
+ <color name="nav_drawer_text_Color">#629de0</color>
+ <color name="favorite_unselected_color">#0cb9f2</color>
+ <color name="favorite_selected_color">#0cb9f2</color>
+ <color name="nav_text_line_color">#629de0</color>
+ <color name="button_background">#0cb9f2</color>
+ <color name="cancel_button_background">#DDD</color>
+ <color name="pre_order_button_background">#fff</color>
+ <color name="color_card_background">#000</color>
+ <color name="fb_button_background">#3b5998</color>
+ <color name="colorAccent">#3b5998</color>
+ <color name="textColorPrimary">#3b5998</color>
+ <color name="windowBackground">#fff</color>
+ <color name="selected_color">#000</color>
+ <color name="unselected_color">#fff</color>
+
+ <color name="filter_text_color">#000</color>
+ <color name="censorRatingBackground">#80000000</color>
+
+ <color name="loader_color">#5d6c7e</color>
+ <color name="hint_background">#0cb9f2</color>
+ <color name="pageTitleColor">#6e6f76</color>
+ <color name="noInternetColor">#5c6873</color>
+ <color name="editTextColor">#5c6873</color>
+ <color name="movieTitleColor">#fff</color>
+ <color name="videomovieTitleColor">#3f444a</color>
+ <color name="resumePopupColor">#fff</color>
+ <color name="dividerColor">#629de0</color>
+ <color name="borderColor">#629de0</color>
+ <color name="playerColor">#000000</color>
+ <color name="playPauseColor">#00000000</color>
+ <color name="waterMarkTextColor">#80ffffff</color>
+ <color name="seekTimeTextColor">#80ffffff</color>
+ <color name="subTitleTextColor">#000</color>
+ <color name="totalTimeTxtColor">#ffffff</color>
+ <color name="contentTitleColor">#fff</color>
+ <color name="languageTextColor">#000</color>
+ <color name="spinnerTextColor">#fff</color>
+ <color name="filterBgColor">#fff</color>
+ <color name="alertPopupColor">#fff</color>
+ <color name="contactFormTitle">#333</color>
+ <color name="btnmoretextcolor">#FFF</color>
+
+
+ <color name="spinnerbackground">#e2e1e1</color>
+ <color name="chromecast_color">#ffffff</color>
+
+ <!--added for subtitle color by anu-->
+ <color name="subtitle_solid_color">#fff</color>
+ <color name="subtitle_outline_color">#000000</color>
+ <color name="device_name_color">#b2423a</color>
+ <color name="nav_header_line_color">#629de0</color>
+</resources>

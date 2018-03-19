@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_subscription"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/subscriptionTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/ppv_margin"
+                android:text="Select Your Plan"
+                android:textColor="@color/pageTitleColor"
+                android:textSize="@dimen/subscription_text_size" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewSubscription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subscriptionTitleTextView"
+                android:layout_margin="@dimen/ppv_margin"
+                android:layout_marginTop="@dimen/ppv_margin"
+                android:gravity="center"
+                android:padding="@dimen/ppv_margin"
+                android:scrollbars="horizontal"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recyclerViewSubscription"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/activationplan"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activation_height"
+                    android:layout_marginBottom="@dimen/ppv_margin"
+                    android:layout_marginLeft="@dimen/activationplan_margin"
+                    android:layout_marginRight="@dimen/activationplan_margin"
+                    android:layout_marginTop="@dimen/payment_relative_margin"
+                    android:background="@drawable/button_radious"
+                    android:padding="@dimen/Login_drawing_padding"
+                    android:stateListAnimator="@null"
+                    android:text="Activate Plan"
+                    android:textAllCaps="false"
+                    android:textColor="@color/buttonTextColor"
+                    android:textSize="@dimen/activation_text_size"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/skipButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/activation_height"
+                    android:layout_marginBottom="@dimen/ppv_margin"
+                    android:layout_marginLeft="@dimen/activationplan_margin"
+                    android:layout_marginRight="@dimen/activationplan_margin"
+                    android:layout_marginTop="@dimen/relative_margin_top"
+                    android:background="@drawable/button_radious"
+                    android:padding="@dimen/Login_drawing_padding"
+                    android:layout_below="@+id/activationplan"
+                    android:stateListAnimator="@null"
+                    android:textAllCaps="false"
+                    android:textColor="@color/buttonTextColor"
+                    android:textSize="@dimen/castcrew_text"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

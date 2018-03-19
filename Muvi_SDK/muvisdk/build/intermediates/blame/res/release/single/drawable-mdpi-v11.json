@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v11\\ic_stat_action_notifications.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\drawable-mdpi-v11\\ic_stat_action_notifications.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v11\\ic_stat_hardware_headphones.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\drawable-mdpi-v11\\ic_stat_hardware_headphones.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v11\\ic_stat_action_notification.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\drawable-mdpi-v11\\ic_stat_action_notification.png"
+    }
+]

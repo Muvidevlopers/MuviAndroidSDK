@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/sliderRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent">
+
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/sliderLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/listitemlayout_height"
+            custom:auto_cycle="true"
+            custom:indicator_visibility="visible"
+            custom:pager_animation_span="1100" />
+
+        <com.daimajia.slider.library.Indicators.PagerIndicator
+            android:id="@+id/custom_indicator2"
+            style="@style/AndroidImageSlider_Corner_Oval_Orange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/payment_relative_margin" />
+        <!--  <com.daimajia.slider.library.Indicators.PagerIndicator
+              android:id="@+id/custom_indicator2"
+              style="@style/AndroidImageSlider_Corner_Oval_Orange"
+              android:layout_centerHorizontal="true"
+              android:layout_alignParentBottom="true"
+              android:layout_marginBottom="20dp"
+              />
+  -->
+        <TextView
+            android:id="@+id/lineTextView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/pop_up_view_height"
+            android:layout_below="@+id/sliderLayout"
+            android:background="@color/border_color" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/loginImageViewMarging_top"
+        android:paddingLeft="@dimen/login_new_user_padding"
+        android:paddingRight="@dimen/login_new_user_padding"
+        android:id="@+id/section_title_layout"
+        >
+
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sample title"
+            android:textAllCaps="true"
+            android:textColor="@color/videotextColor"
+            android:textSize="@dimen/itemtitle_text_size"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+
+
+        <Button
+            android:id="@+id/btnMore"
+            android:layout_width="@dimen/viewmore_btn_width"
+            android:layout_height="@dimen/viewmore_btn_height"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/view_more_button_background"
+            android:minHeight="@dimen/btnMore_min_height"
+            android:stateListAnimator="@null"
+            android:text="vfewgafeqfgqeg"
+            android:textAllCaps="false"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="@dimen/viewmore_text_size" />
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/featureContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/ppv_margin"
+        android:orientation="horizontal" />
+
+
+</LinearLayout>

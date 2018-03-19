@@ -1,0 +1,414 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_background"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/login_linear_margin_top"
+            android:paddingTop="@dimen/login_linear_margin_top"
+            >
+
+
+            <RelativeLayout
+                android:id="@+id/creditCardLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/personalDetailsCardView"
+                android:layout_marginTop="@dimen/payment_margin_top">
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/Login_drawing_padding">
+
+                    <Button
+                        android:id="@+id/scanButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/scanbtn_height"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="@dimen/forgotlayout_margin"
+                        android:background="@drawable/button_bg_orange"
+                        android:stateListAnimator="@null"
+                        android:text="Scan"
+                        android:textColor="@color/buttonTextColor"
+                        android:textSize="@dimen/scanbtn_text_size"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/chargeDetailsTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/creditCardDetailsTitleTextView"
+                        android:layout_marginTop="@dimen/forgotlayout_margin"
+                        android:maxLines="4"
+                        android:singleLine="false"
+                        android:text="Your card will be charged now:"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/chargedetail_text_size" />
+
+                    <!-- <RelativeLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:id="@+id/creditCardSaveLayout"
+                         android:background="@drawable/spinner_card_bg"
+                         android:layout_below="@id/chargeDetailsTextView"
+                         android:layout_marginTop="10dp">-->
+
+                    <Spinner
+                        android:id="@+id/creditCardSaveEditText"
+                        style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/chargeDetailsTextView"
+                        android:layout_marginTop="@dimen/forgotlayout_margin"
+                        android:overlapAnchor="false"
+                        android:paddingLeft="@dimen/payment_spinner_padding"
+                        android:paddingRight="@dimen/payment_spinner_padding"
+                        android:popupBackground="@color/spinnerbackground"
+                        android:spinnerMode="dropdown"
+                        android:textColorHint="@color/hint_color"
+                        android:theme="@style/ThemeOverlay.AppCompat.Light"
+                        android:visibility="gone" />
+                    <!--
+                                            </RelativeLayout>
+                    -->
+
+
+                    <EditText
+                        android:id="@+id/cardNumberEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_no_height"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/nameOnCardEditText"
+                        android:layout_marginTop="@dimen/ppv_margin"
+                        android:ems="10"
+                        android:hint="Card Number"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:paddingBottom="@dimen/payment_spinner_padding"
+                        android:paddingLeft="@dimen/payment_spinner_padding_left"
+                        android:paddingRight="@dimen/payment_spinner_padding"
+                        android:paddingTop="@dimen/payment_spinner_padding"
+                        android:textColor="@color/editTextColor"
+                        android:textColorHint="@color/hint_color" />
+
+                    <LinearLayout
+                        android:id="@+id/cardExpiryDetailsLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/cardNumberEditText"
+                        android:orientation="horizontal">
+                        <!-- <RelativeLayout
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:id="@+id/cardexpiryMonthLayout"
+                             android:background="@drawable/spinner_card_bg">-->
+
+                        <Spinner
+                            android:id="@+id/cardExpiryMonthEditText"
+                            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                            android:layout_width="@dimen/card_expiry_width"
+                            android:layout_height="@dimen/card_expiry_height"
+                            android:overlapAnchor="false"
+                            android:paddingLeft="@dimen/payment_spinner_padding"
+                            android:paddingRight="@dimen/payment_spinner_padding"
+                            android:popupBackground="@color/spinnerbackground"
+                            android:spinnerMode="dropdown"
+                            android:textColorHint="@color/hint_color"
+                            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+                        <!--</RelativeLayout>-->
+
+
+                        <TextView
+                            android:id="@+id/yearLineTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/payment_spinner_padding"
+                            android:layout_marginTop="@dimen/my_download_margin"
+                            android:text="/"
+                            android:textColor="@color/hint_background"
+                            android:textSize="@dimen/yearline_text_size"
+                            android:textStyle="normal" />
+                        <!--<RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cardExpiryYearLayout"
+                            android:layout_toRightOf="@+id/yearLineTextView"
+                            android:background="@drawable/spinner_card_bg">-->
+
+                        <!-- </RelativeLayout>-->
+
+
+                        <Spinner
+                            android:id="@+id/cardExpiryYearEditText"
+                            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                            android:layout_width="@dimen/card_expiryyear_width"
+                            android:layout_height="@dimen/card_expiryyear_height"
+                            android:layout_alignTop="@+id/securityCodeEditText"
+                            android:layout_toEndOf="@+id/yearLineTextView"
+                            android:layout_toRightOf="@+id/yearLineTextView"
+                            android:overlapAnchor="false"
+                            android:paddingLeft="@dimen/payment_spinner_padding"
+                            android:paddingRight="@dimen/payment_spinner_padding"
+                            android:popupBackground="@color/spinnerbackground"
+                            android:spinnerMode="dropdown"
+                            android:textColorHint="@color/hint_color"
+                            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+                        <EditText
+                            android:id="@+id/securityCodeEditText"
+                            android:layout_width="@dimen/securitycode_width"
+                            android:layout_height="@dimen/securitycode_height"
+                            android:layout_marginLeft="@dimen/payment_left_margin"
+                            android:hint="CVV"
+                            android:imeOptions="actionGo"
+                            android:inputType="number"
+                            android:paddingLeft="@dimen/payment_spinner_padding_left"
+                            android:paddingRight="@dimen/payment_spinner_padding"
+                            android:textColor="@color/editTextColor"
+                            android:textColorHint="@color/hint_color" />
+
+                    </LinearLayout>
+
+                    <CheckBox
+                        android:id="@+id/saveCardCheckbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/cardExpiryDetailsLayout"
+                        android:layout_marginTop="@dimen/forgotlayout_margin"
+                        android:buttonTint="@color/button_background"
+                        android:text="Save this card for faster checkout"
+                        android:textColor="@color/buttonTextColor"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/payNowButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/paybtn_height"
+                        android:layout_below="@+id/saveCardCheckbox"
+                        android:layout_marginLeft="@dimen/payment_margin_btn"
+                        android:layout_marginRight="@dimen/payment_margin_btn"
+                        android:layout_marginTop="@dimen/payment_margin_btn_top"
+                        android:background="@drawable/button_radious"
+                        android:stateListAnimator="@null"
+                        android:text="Pay Now"
+                        android:textAllCaps="false"
+                        android:textColor="@color/buttonTextColor"
+                        android:textSize="@dimen/paybtn_text_size"
+
+
+                        />
+
+                    <EditText
+                        android:id="@+id/nameOnCardEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/nameoncard_height"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/creditCardSaveEditText"
+                        android:layout_marginTop="@dimen/payment_spinner_padding_left"
+                        android:ems="10"
+                        android:hint="Name on Card"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName"
+                        android:paddingBottom="@dimen/payment_spinner_padding"
+                        android:paddingLeft="@dimen/payment_spinner_padding_left"
+                        android:paddingRight="@dimen/payment_spinner_padding"
+                        android:paddingTop="@dimen/payment_spinner_padding"
+                        android:textColor="@color/editTextColor"
+                        android:textColorHint="@color/hint_color" />
+
+                    <TextView
+                        android:id="@+id/creditCardDetailsTitleTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="@dimen/payment_margin_btn"
+                        android:layout_toEndOf="@+id/scanButton"
+                        android:layout_toRightOf="@+id/scanButton"
+                        android:text="Credit Card Details"
+                        android:textColor="@color/pageTitleColor"
+                        android:textSize="@dimen/creditcarddetail_text_size"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <!-- <ImageButton
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/payByPalButton"
+                 android:src="@drawable/paypal"
+                 android:textColor="@color/white"
+                 android:textSize="14dp"
+                 android:background="@color/transparent"
+                 android:layout_below="@+id/creditCardLayout"
+                 android:layout_marginTop="12dp"
+                 android:visibility="gone"
+
+                 />-->
+            <RelativeLayout
+                android:id="@+id/withoutPaymentLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/personalDetailsCardView"
+                android:layout_marginTop="@dimen/payment_relative_margin"
+                android:visibility="gone">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/withoutPaymentCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/my_download_margin"
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/forgotlayout_margin">
+
+                        <TextView
+                            android:id="@+id/withoutPaymentTitleTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginTop="@dimen/forgotlayout_margin"
+                            android:text="You can watch the video at free of cost."
+                            android:textColor="@color/alreadyHaveALoginButtonTextColor"
+                            android:textSize="@dimen/withoutpayment_text_size" />
+
+                        <TextView
+                            android:id="@+id/withoutPaymentChargeDetailsTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/withoutPaymentTitleTextView"
+                            android:layout_marginTop="@dimen/forgotlayout_margin"
+                            android:maxLines="4"
+                            android:singleLine="false"
+                            android:text="Your card will be charged now:"
+                            android:textColor="@color/alreadyMemberTextColor"
+                            android:textSize="@dimen/withoutpaymentcharge_text_size" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <Button
+                    android:id="@+id/nextButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/nextbtn_height"
+                    android:layout_below="@+id/withoutPaymentCardView"
+                    android:layout_marginTop="@dimen/payment_spinner_padding_left"
+                    android:background="@drawable/button_bg_orange"
+                    android:stateListAnimator="@null"
+                    android:text="Next"
+                    android:textColor="@color/buttonTextColor"
+                    android:textSize="@dimen/nextbtn_text_size"
+                    android:layout_marginLeft="@dimen/payment_margin_btn"
+                    android:layout_marginRight="@dimen/payment_margin_btn"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/personalDetailsCardView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:padding="@dimen/forgotlayout_margin"
+                android:visibility="gone">
+
+
+                <TextView
+                    android:id="@+id/lineTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/payment_margin_top"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/purchaseTextView"
+                    android:background="@color/alreadyHaveALoginButtonTextColor" />
+
+                <TextView
+                    android:id="@+id/showNameWithPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lineTextView"
+                    android:layout_marginTop="@dimen/payment_textview_showname_margin"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/showname_text_size" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/showNameWithPrice"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/couponCodeEditText"
+                        android:layout_width="@dimen/payment_margin_top"
+                        android:layout_height="@dimen/coupancode_height"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/showNameWithPrice"
+                        android:layout_weight="2"
+                        android:ems="10"
+                        android:hint="Enter Coupon Code"
+                        android:imeOptions="actionGo"
+                        android:inputType="text"
+                        android:paddingBottom="@dimen/payment_spinner_padding"
+                        android:paddingLeft="@dimen/payment_spinner_padding_left"
+                        android:paddingRight="@dimen/payment_spinner_padding"
+                        android:paddingTop="@dimen/payment_spinner_padding"
+                        android:textColor="@color/textColor"
+                        android:textColorHint="@color/hint_color" />
+
+                    <Button
+                        android:id="@+id/addCouponButton"
+                        android:layout_width="@dimen/payment_margin_top"
+                        android:layout_height="@dimen/coupanbtn_height"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="@dimen/loginImageViewMarging_top"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_radious"
+                        android:stateListAnimator="@null"
+                        android:text="Apply"
+                        android:textAllCaps="false"
+                        android:textColor="@color/buttonTextColor"
+                        android:textSize="@dimen/coupanbtn_text_size"
+
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/purchaseTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text="Purchase"
+                    android:textColor="@color/pageTitleColor"
+                    android:textSize="@dimen/purchase_text_size"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

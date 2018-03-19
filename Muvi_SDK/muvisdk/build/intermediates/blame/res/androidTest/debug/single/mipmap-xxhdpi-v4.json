@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\ic_launcher_round.png",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\ic_launcher_round.png"
+    }
+]

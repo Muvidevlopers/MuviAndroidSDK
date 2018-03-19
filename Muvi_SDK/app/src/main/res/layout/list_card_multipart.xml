@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+
+    >-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/listcard_width"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:padding="@dimen/videoCensorRatingTextView_padding">
+
+    <!--  <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+  -->
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="@dimen/listcard_width"
+        android:layout_height="@dimen/listcard_height"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/movieImageOverlay"
+        android:layout_width="@dimen/listcard_width"
+        android:layout_height="@dimen/listcard_height"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/content_list_overlay"
+
+        />
+    <!--
+        </RelativeLayout>
+    -->
+
+    <TextView
+        android:id="@+id/itemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/movieImageOverlay"
+        android:layout_alignBottom="@+id/movieImageOverlay"
+        android:layout_alignLeft="@+id/itemImage"
+        android:layout_alignRight="@+id/itemImage"
+        android:ellipsize="end"
+        android:gravity="left"
+        android:maxLength="18"
+        android:text=""
+        android:textColor="@color/contentTitleColor"
+        android:textSize="@dimen/itemtitle1_text_size" />
+
+
+</RelativeLayout>
+
+    <!--
+    </android.support.v7.widget.CardView>-->

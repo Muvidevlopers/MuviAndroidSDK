@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:fillViewport="true">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:id="@+id/noInternet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/transparent"
+        android:padding="@dimen/manage_device_padding"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/noInternetTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:maxLines="4"
+            android:singleLine="false"
+            android:textColor="@color/noInternetColor"
+            android:textSize="@dimen/testview_text_size"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/noData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/transparent"
+        android:padding="@dimen/manage_device_padding"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/noDataTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:maxLines="4"
+            android:singleLine="false"
+            android:textColor="@color/noInternetColor"
+            android:textSize="@dimen/testview_text_size"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_toRightOf="@+id/noInternet"
+        android:layout_toEndOf="@+id/noInternet">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/detailsRelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent">
+
+
+                <RelativeLayout
+                    android:id="@+id/bannerImageRelativeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:visibility="visible">
+
+
+                    <ImageView
+                        android:id="@+id/bannerImageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/banner_image_height"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/bannerOverlay"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/banner_image_height"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/content_list_overlay"
+                        android:scaleType="centerCrop"
+
+                        />
+
+                    <RelativeLayout
+                        android:id="@+id/favorite"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                        <ImageView
+                            android:id="@+id/favorite_view_episode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/payment_relative_margin"
+                            android:layout_marginTop="@dimen/ppv_margin"
+                            android:src="@drawable/favorite_unselected"
+                            android:visibility="visible" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeOverlayLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/bannerImageView"
+                        android:layout_alignEnd="@+id/bannerImageView"
+                        android:layout_alignLeft="@+id/bannerImageView"
+                        android:layout_alignRight="@+id/bannerImageView"
+                        android:layout_alignStart="@+id/bannerImageView"
+                        android:layout_marginBottom="@dimen/name_user_margin_bottom"
+                        android:gravity="right"
+                        android:orientation="horizontal"
+                        android:paddingBottom="@dimen/Login_drawing_padding"
+                        android:paddingLeft="@dimen/Login_drawing_padding"
+                        android:paddingRight="@dimen/Login_drawing_padding"
+                        android:paddingTop="@dimen/Login_drawing_padding">
+
+                        <Button
+                            android:id="@+id/preOrderButton"
+                            android:layout_width="@dimen/viewmore_btn_width"
+                            android:layout_height="@dimen/viewmore_btn_height"
+                            android:layout_marginRight="@dimen/pre_order_button_margin"
+                            android:layout_toLeftOf="@+id/viewTrailerButton"
+                            android:background="@drawable/preorder_button"
+                            android:padding="@dimen/trailer_btn_padding"
+                            android:stateListAnimator="@null"
+                            android:textAllCaps="false"
+                            android:textColor="@color/preOrderButtonTextColor"
+                            android:textSize="@dimen/review_btn_textsize"
+                            android:visibility="gone" />
+
+
+                        <Button
+                            android:id="@+id/viewTrailerButton"
+                            android:layout_width="@dimen/viewmore_btn_width"
+                            android:layout_height="@dimen/viewmore_btn_height"
+                            android:layout_alignParentRight="true"
+                            android:background="@drawable/view_more_button_background"
+                            android:padding="@dimen/trailer_btn_padding"
+                            android:stateListAnimator="@null"
+                            android:textAllCaps="false"
+                            android:textColor="@color/buttonTextColor"
+                            android:textSize="@dimen/viewmore_text_size"
+                            android:visibility="gone"
+
+                            />
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/durationcensorLinearlayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/bannerImageView"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginBottom="@dimen/ppv_margin"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/videoDurationTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/videoGenreTextView"
+                            android:layout_marginLeft="@dimen/ppv_margin"
+                            android:text=""
+                            android:textColor="@color/movieTitleColor"
+                            android:textSize="@dimen/review_btn_textsize" />
+
+                        <TextView
+                            android:id="@+id/videoCensorRatingTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/videoGenreTextView"
+                            android:layout_marginLeft="@dimen/ppv_margin"
+                            android:background="@color/censorRatingBackground"
+                            android:paddingLeft="@dimen/videoCensorRatingTextView_padding"
+                            android:paddingRight="@dimen/videoCensorRatingTextView_padding"
+                            android:textColor="@color/movieTitleColor"
+                            android:textSize="@dimen/review_btn_textsize"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/videoCensorRatingTextView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/videoGenreTextView"
+                            android:layout_marginLeft="@dimen/name_user_margin_bottom"
+                            android:textColor="@color/movieTitleColor"
+                            android:textSize="@dimen/review_btn_textsize" />
+
+
+                        <TextView
+                            android:id="@+id/videoReleaseDateTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/videoGenreTextView"
+                            android:layout_marginLeft="@dimen/ppv_margin"
+                            android:textColor="@color/movieTitleColor"
+                            android:textSize="@dimen/review_btn_textsize" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/playButton"
+                        android:layout_width="@dimen/playbtn_width"
+                        android:layout_height="@dimen/playbtn_height"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/play" />
+
+                    <TextView
+                        android:id="@+id/videoGenreTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/durationcensorLinearlayout"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginRight="@dimen/videoGenreTextView_margin"
+                        android:maxLines="2"
+                        android:paddingLeft="@dimen/Login_drawing_padding"
+                        android:text=""
+                        android:textColor="@color/movieTitleColor"
+                        android:textSize="@dimen/review_btn_textsize" />
+
+                    <TextView
+                        android:id="@+id/videoTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/videoGenreTextView"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="@dimen/ppv_margin"
+                        android:layout_toLeftOf="@+id/playButton"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:text=""
+                        android:textColor="@color/movieTitleColor"
+                        android:textSize="@dimen/movie_videotitle_size"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rating"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iconImageRelativeLayout"
+                    android:orientation="horizontal">
+
+                    <RatingBar
+                        android:id="@+id/ratingBar"
+                        style="@style/customRatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/ppv_margin"
+                        android:focusable="false"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/viewRatingTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/textColor_margin"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/review_btn_textsize"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/story_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rating"
+                    android:layout_marginTop="@dimen/ppv_margin"
+                    android:background="@color/transparent"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+
+                    <RelativeLayout
+                        android:id="@+id/story"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/name_user_margin_bottom"
+                        android:layout_marginLeft="@dimen/ppv_margin"
+                        android:layout_marginRight="@dimen/ppv_margin">
+
+                        <TextView
+                            android:id="@+id/videoStoryTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/login_linear_margin_top"
+                            android:layout_toLeftOf="@+id/storyViewMoreButton"
+                            android:ellipsize="end"
+                            android:textColor="@color/videotextColor"
+                            android:textSize="@dimen/review_btn_textsize" />
+
+                        <Button
+                            android:id="@id/storyViewMoreButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@color/transparent"
+                            android:text="View More"
+                            android:textColor="@color/button_background"
+                            android:textSize="@dimen/email_text_size"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                    <!-- <com.release.cube.utils.ExpandableTextView
+                         android:id="@+id/videoStoryTextView"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_marginBottom="5dp"
+                         android:layout_marginLeft="10dp"
+                         android:layout_marginRight="10dp"
+                         android:layout_marginTop="7dp"
+
+                         android:textColor="@color/videotextColor"
+                         android:textSize="14dp" />-->
+
+                    <TextView
+                        android:id="@+id/videoCastCrewTitleTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="@dimen/ppv_margin"
+                        android:layout_marginTop="@dimen/textColor_margin"
+                        android:textColor="@color/castCrewTitleTextColor"
+                        android:textSize="@dimen/forgot_text_size"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/iconImageRelativeLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bannerImageRelativeLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/login_linear_margin_top"
+                    android:visibility="gone">
+
+                    <ImageButton
+                        android:id="@+id/offlineImageButton"
+                        android:layout_width="@dimen/offlinebtn_width"
+                        android:layout_height="@dimen/offlinebtn_height"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/offlinebutton"
+
+                        />
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/seasonRelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/detailsRelativeLayout"
+                android:padding="2dp">
+
+
+                <Spinner
+                    android:id="@+id/seasonSpinner"
+                    android:layout_width="@dimen/forgot_logo_width"
+                    android:layout_height="@dimen/preorderbtn_height"
+                    android:layout_marginBottom="@dimen/ppv_margin"
+                    android:layout_marginLeft="@dimen/seasonSpinner_margin"
+                    android:layout_marginRight="@dimen/ppv_margin"
+                    android:layout_marginTop="@dimen/ppv_margin"
+                    android:background="@drawable/spinner_theme"
+                    android:overlapAnchor="false"
+                    android:paddingRight="0dip"
+                    android:popupBackground="@color/seasonBackgroundColor"
+                    android:spinnerMode="dropdown"
+                    android:theme="@style/applicationTheme"
+                    android:visibility="gone" />
+
+
+                <Button
+                    android:id="@+id/btnMore"
+                    android:layout_width="@dimen/viewmore_btn_width"
+                    android:layout_height="@dimen/viewmore_btn_height"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/ppv_margin"
+                    android:layout_marginRight="@dimen/ppv_margin"
+                    android:background="@color/button_background"
+                    android:stateListAnimator="@null"
+                    android:textAllCaps="false"
+                    android:textColor="@color/buttonTextColor"
+                    android:textSize="@dimen/preorderbtn_text_size" />
+
+
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/featureContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/seasonRelativeLayout"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/terms_text_view_margin_right"
+                android:layout_marginTop="@dimen/ppv_margin"
+
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+    <fragment
+        android:id="@+id/cast_mini_controller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        class="com.google.android.gms.cast.framework.media.widget.MiniControllerFragment"/>
+</RelativeLayout>
+

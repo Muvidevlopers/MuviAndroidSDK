@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\player.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\menu\\player.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\sdk_menu_main.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\menu\\sdk_menu_main.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\popup_add_to_queue.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\menu\\popup_add_to_queue.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\expanded_controller.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\bundles\\debug\\res\\menu\\expanded_controller.xml"
+    }
+]

@@ -1,0 +1,302 @@
+[
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\render_type_text.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\a7036775f4f99b1a3db1645fc4d97e81f11482f6\\output\\res\\layout\\render_type_text.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\exomedia_default_exo_video_view.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\layout\\exomedia_default_exo_video_view.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\activity_sdk_mydownload.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\activity_sdk_mydownload.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\sdk_activity_subtitle__resolution.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\sdk_activity_subtitle__resolution.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\cast_help_text.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\layout\\cast_help_text.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\sdk_resolution_list_layout.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\sdk_resolution_list_layout.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\cast_expanded_controller_activity.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\layout\\cast_expanded_controller_activity.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\exomedia_video_view_layout.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\layout\\exomedia_video_view_layout.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\activity_sdk_exoplayer.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\activity_sdk_exoplayer.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\indicator_layout.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\a7036775f4f99b1a3db1645fc4d97e81f11482f6\\output\\res\\layout\\indicator_layout.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\sdk_trailer_player.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\sdk_trailer_player.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\sdk_activity_resume_playing.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\sdk_activity_resume_playing.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\progress_bar_layout.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\progress_bar_layout.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\mr_media_route_chooser_dialog.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d524d212f90336db837cd3a85dcc69fc93367d36\\output\\res\\layout\\mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\sdk_marlin_player.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\sdk_marlin_player.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\cast_tracks_chooser_dialog_row_layout.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\layout\\cast_tracks_chooser_dialog_row_layout.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\activity_sdk_download_popup.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\activity_sdk_download_popup.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\custom_offlist.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\custom_offlist.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\sdk_subtitile_list_layout.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\sdk_subtitile_list_layout.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\sdk_activity_subtitle_list.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\sdk_activity_subtitle_list.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\activity_third_party_player.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\activity_third_party_player.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\dropdownlist.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\dropdownlist.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\activity_ad_player.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\activity_ad_player.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\activity_player.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\activity_player.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\activity_you_tube_api.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\activity_you_tube_api.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\exomedia_default_native_video_view.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\layout\\exomedia_default_native_video_view.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\fragment_video_description.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\fragment_video_description.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\fragment_ad.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\fragment_ad.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\slider_layout.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\a7036775f4f99b1a3db1645fc4d97e81f11482f6\\output\\res\\layout\\slider_layout.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\cast_tracks_chooser_dialog_layout.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\layout\\cast_tracks_chooser_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\cast_intro_overlay.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\layout\\cast_intro_overlay.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\activity_my.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\activity_my.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\mr_media_route_controller_material_dialog_b.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d524d212f90336db837cd3a85dcc69fc93367d36\\output\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\toolbar.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\cast_mini_controller.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d398ee7992f18f79d549878ed06672d6f1da3340\\output\\res\\layout\\cast_mini_controller.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\sdk_activity_resolution_change.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\sdk_activity_resolution_change.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\activity_sdk_download_resolution_list.xml",
+        "source": "D:\\Workspace\\VOD\\muvisdk\\src\\main\\res\\layout\\activity_sdk_download_resolution_list.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\exomedia_default_controls_mobile.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\layout\\exomedia_default_controls_mobile.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\render_type_default.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\a7036775f4f99b1a3db1645fc4d97e81f11482f6\\output\\res\\layout\\render_type_default.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\3b07155c81f7e5152955253224074a625f2d2bb2\\output\\res\\layout\\abc_select_dialog_material.xml"
+    }
+]

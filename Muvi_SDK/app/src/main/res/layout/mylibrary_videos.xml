@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical">
+
+ <!--   <TextView
+        android:id="@+id/sectionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/payment_spinner_padding"
+        android:textColor="@color/pageTitleColor"
+        android:textSize="@dimen/sectiontitle_text_size"
+        android:textStyle="normal"
+        android:layout_marginLeft="@dimen/marginright5dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"/>-->
+
+
+    <GridView
+        android:id="@+id/imagesGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sectionTitle"
+        android:layout_marginBottom="@dimen/pre_order_button_margin"
+        android:layout_marginTop="@dimen/pre_order_button_margin"
+        android:horizontalSpacing="@dimen/pre_order_button_margin"
+        android:paddingLeft="@dimen/Login_drawing_padding"
+        android:verticalSpacing="@dimen/pre_order_button_margin"
+       >
+
+    </GridView>
+    <!--<com.twotoasters.jazzylistview.JazzyGridView
+        android:id="@+id/imagesGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:numColumns="2"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp"
+        android:horizontalSpacing="8dp"
+        android:verticalSpacing="8dp"
+        app:only_animate_new_items="false" />
+-->
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleInverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/progress_rawable"
+            android:indeterminateDuration="1000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/noInternet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/transparent"
+        android:padding="@dimen/main_padding"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/noInternetTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:maxLines="4"
+            android:singleLine="false"
+            android:textColor="@color/noInternetColor"
+            android:textSize="@dimen/testview_text_size"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/noData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/transparent"
+        android:padding="@dimen/main_padding"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/noDataTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:maxLines="4"
+            android:singleLine="false"
+            android:textColor="@color/noInternetColor"
+            android:textSize="@dimen/testview_text_size"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/filterBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        android:background="#cccccc"
+        android:visibility="gone"
+
+        >
+
+        <ImageView
+            android:id="@+id/arrowIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/profile_spinner_margin"
+            android:background="@drawable/filter_arrow" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/demoListView"
+            android:layout_width="@dimen/recylerview_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/arrowIv"
+            android:layout_marginLeft="@dimen/profile_image_view_margin_end"
+            android:background="@color/transparent"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

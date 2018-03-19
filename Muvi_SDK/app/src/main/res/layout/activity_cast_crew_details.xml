@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cast_and_crew"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/castImageView"
+                    android:layout_width="@dimen/cast_details_width"
+                    android:layout_height="@dimen/cast_details_height"
+                    android:layout_marginTop="20dp" />
+
+
+                <TextView
+                    android:id="@+id/castNameTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ppv_margin"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/videotextColor"
+                    android:textSize="@dimen/cast_textsize" />
+
+                <TextView
+                    android:id="@+id/castDescriptionTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/ppv_margin"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:textColor="@color/videotextColor"
+                    android:textSize="@dimen/cast_description_text" />
+            </LinearLayout>
+
+            <!--   <Button
+                   android:id="@+id/btnMore"
+                   android:layout_width="@dimen/review_btn_width"
+                   android:layout_height="@dimen/review_btn_height"
+                   android:layout_alignParentEnd="true"
+                   android:layout_alignParentRight="true"
+                   android:layout_gravity="right"
+                   android:layout_marginTop="@dimen/ppv_margin"
+                   android:background="@drawable/button_radious"
+                   android:minHeight="@dimen/btnMore_min_height"
+                   android:stateListAnimator="@null"
+                   android:textAllCaps="false"
+                   android:textColor="@color/buttonTextColor"
+                   android:textSize="@dimen/cast_btn_textsize" />-->
+
+            <View
+                android:id="@+id/borderLineView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/border_line_height"
+                android:layout_marginTop="@dimen/ppv_margin"
+                android:background="@color/button_background"
+                android:paddingLeft="@dimen/Login_drawing_padding"
+                android:paddingRight="@dimen/Login_drawing_padding" />
+
+            <TextView
+                android:id="@+id/filmography"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="@dimen/marginLeft15dp"
+                android:layout_marginLeft="@dimen/ppv_margin"
+                android:text="sasasasasasassaas"
+                android:textColor="@color/border_color"
+                android:textSize="@dimen/cast_textsize" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/filmographyRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="@dimen/ppv_margin"
+                android:clipToPadding="false"
+
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

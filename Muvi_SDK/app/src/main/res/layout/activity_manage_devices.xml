@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/manage_device_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/manage_device_padding"
+        android:text="Your Devices"
+        android:textColor="@color/pageTitleColor"
+        android:textSize="@dimen/videotitle_text_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/device_list"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:divider="#eee"
+            android:dividerHeight="@dimen/divider_height"
+            android:padding="@dimen/Login_drawing_padding">
+
+        </ListView>
+
+    </LinearLayout>
+</LinearLayout>

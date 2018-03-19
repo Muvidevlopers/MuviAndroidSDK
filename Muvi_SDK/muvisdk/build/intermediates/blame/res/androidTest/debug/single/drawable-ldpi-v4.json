@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\exomedia_ic_play_arrow_white.png",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\drawable-ldpi-v4\\exomedia_ic_play_arrow_white.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\exomedia_ic_rewind_white.png",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\drawable-ldpi-v4\\exomedia_ic_rewind_white.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\exomedia_ic_skip_next_white.png",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\drawable-ldpi-v4\\exomedia_ic_skip_next_white.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\exomedia_ic_skip_previous_white.png",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\drawable-ldpi-v4\\exomedia_ic_skip_previous_white.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\exomedia_ic_pause_white.png",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\drawable-ldpi-v4\\exomedia_ic_pause_white.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\d92322db9eeaf2cfdbf9fd40c96b9e9bd8418404\\output\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\exomedia_ic_fast_forward_white.png",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\drawable-ldpi-v4\\exomedia_ic_fast_forward_white.png"
+    }
+]

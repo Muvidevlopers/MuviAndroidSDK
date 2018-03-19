@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ppv_margin"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/Login_drawing_padding">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/payment_spinner_padding"
+                android:text="Select Your Option"
+                android:textColor="@color/pageTitleColor"
+                android:textSize="@dimen/selectopt_text_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/completeSeasonRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/forgotlayout_margin"
+            android:layout_marginRight="@dimen/forgotlayout_margin"
+            android:layout_marginTop="@dimen/forgotlayout_margin"
+            android:weightSum="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/completeRadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/radiobutton_style"
+                android:text="The martian  Complete season "
+                android:textColor="#afafaf"
+                android:textSize="@dimen/radiobtn_text_size"
+                android:layout_weight="0.8"
+                android:ellipsize="end"
+                android:singleLine="true"
+                />
+
+            <TextView
+                android:id="@+id/completePriceTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text="$07.00"
+                android:textColor="@color/alreadyHaveALoginButtonTextColor"
+                android:textSize="@dimen/radiobtn_text_size"
+                android:layout_weight=".2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/seasonRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/forgotlayout_margin"
+            android:layout_marginRight="@dimen/forgotlayout_margin"
+            android:layout_marginTop="@dimen/forgotlayout_margin"
+            android:weightSum="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/seasonRadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/radiobutton_style"
+                android:text="The martian  Complete season "
+                android:textColor="#afafaf"
+                android:textSize="@dimen/radiobtn_text_size"
+                android:layout_weight="0.8"
+                android:ellipsize="end"
+                android:singleLine="true"
+                />
+
+            <TextView
+                android:id="@+id/seasonPriceTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text="$07.00"
+                android:textColor="@color/alreadyHaveALoginButtonTextColor"
+                android:textSize="@dimen/radiobtn_text_size"
+                android:layout_weight=".2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/episodeRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/forgotlayout_margin"
+            android:layout_marginRight="@dimen/forgotlayout_margin"
+            android:layout_marginTop="@dimen/forgotlayout_margin"
+            android:weightSum="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/episodeRadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/radiobutton_style"
+                android:text="The martian  Complete season "
+                android:textColor="#afafaf"
+                android:textSize="@dimen/radiobtn_text_size"
+                android:layout_weight="0.8"
+                android:ellipsize="end"
+                android:singleLine="true"
+                />
+
+            <TextView
+                android:id="@+id/episodePriceTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text="$07.00"
+                android:textColor="@color/alreadyHaveALoginButtonTextColor"
+                android:textSize="@dimen/radiobtn_text_size"
+                android:layout_weight=".2"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/payNowButton"
+            android:layout_width="@dimen/paybtn_width"
+            android:layout_height="@dimen/login_butn_height"
+            android:layout_gravity="right"
+            android:layout_marginBottom="@dimen/relative_margin_top"
+            android:layout_marginRight="@dimen/relative_margin_top"
+            android:layout_marginTop="@dimen/forgotlayout_margin"
+            android:background="@drawable/button_radious"
+            android:gravity="center"
+            android:stateListAnimator="@null"
+            android:text="Pay Now"
+            android:textAllCaps="false"
+            android:textColor="@color/buttonTextColor"
+            android:textSize="@dimen/paybtn1_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/pop_up_view_height"
+            android:background="@color/alreadyHaveALoginButtonTextColor" />
+    </LinearLayout>
+</LinearLayout>

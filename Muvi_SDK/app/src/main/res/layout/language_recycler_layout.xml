@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/language_recyler_height"
+            android:background="#00000000">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="@dimen/recylerimg_width"
+                android:layout_height="@dimen/recylerimg_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/loginImageViewMarging_top"
+                android:layout_marginRight="@dimen/language_recycler_layout"
+                android:src="@drawable/unselected" />
+
+            <TextView
+                android:id="@+id/language"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/languagetext_height"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/loginImageViewMarging_top"
+                android:layout_marginStart="@dimen/loginImageViewMarging_top"
+                android:gravity="center_vertical"
+                android:textColor="@color/languageTextColor"
+                android:textSize="@dimen/languagepop_text_size" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/voucher_pop_up_height"
+            android:layout_marginLeft="@dimen/loginImageViewMarging_top"
+            android:layout_marginRight="@dimen/loginImageViewMarging_top"
+            android:background="@color/dividerColor" />
+    </LinearLayout>
+</LinearLayout>

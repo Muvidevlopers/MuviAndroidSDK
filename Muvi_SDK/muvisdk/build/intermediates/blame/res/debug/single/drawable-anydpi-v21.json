@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exomedia_ic_play_arrow_white.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\drawable-anydpi-v21\\exomedia_ic_play_arrow_white.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exomedia_ic_fast_forward_white.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\drawable-anydpi-v21\\exomedia_ic_fast_forward_white.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exomedia_ic_skip_previous_white.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\drawable-anydpi-v21\\exomedia_ic_skip_previous_white.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exomedia_ic_pause_white.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\drawable-anydpi-v21\\exomedia_ic_pause_white.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exomedia_ic_skip_next_white.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\drawable-anydpi-v21\\exomedia_ic_skip_next_white.xml"
+    },
+    {
+        "merged": "D:\\Workspace\\VOD\\muvisdk\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exomedia_ic_rewind_white.xml",
+        "source": "C:\\Users\\MUVI\\.android\\build-cache\\9e7abf2031403e176abddedce9743ae24c0090fb\\output\\res\\drawable-anydpi-v21\\exomedia_ic_rewind_white.xml"
+    }
+]
