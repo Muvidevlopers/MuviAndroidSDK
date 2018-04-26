@@ -1,31 +1,55 @@
 package com.home.vod.FCM_Support;
 
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Handler;
 import android.os.Looper;
+import android.provider.Settings;
+import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
+import com.home.apisdk.apiController.FcmNotificationcountAsynTask;
+import com.home.apisdk.apiModel.FcmNotificationcountInputModel;
+import com.home.apisdk.apiModel.FcmNotificationcountOutputModel;
+import com.home.vod.BuildConfig;
+import com.home.vod.R;
 import com.home.vod.activity.MainActivity;
+import com.home.vod.activity.SplashScreen;
 import com.home.vod.preferences.PreferenceManager;
 import com.home.vod.util.Util;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class MyFirebaseMessagingService extends FirebaseMessagingService {
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.Executor;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+
+public class MyFirebaseMessagingService extends FirebaseMessagingService implements FcmNotificationcountAsynTask.FcmNotificationcountListener{
 
     private static final String TAG = "BIBHU2";
     String MESSAGE = "";
+    int corePoolSize = 60;
+    int maximumPoolSize = 80;
+    int keepAliveTime = 10;
+    BlockingQueue<Runnable> workQueue = new LinkedBlockingQueue<Runnable>(maximumPoolSize);
+    Executor threadPoolExecutor = new ThreadPoolExecutor(corePoolSize, maximumPoolSize, keepAliveTime, TimeUnit.SECONDS, workQueue);
+
+    PreferenceManager preferenceManager;
 
 
 
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
         Log.e(TAG, "From: " + remoteMessage.getFrom());
-
+        preferenceManager = PreferenceManager.getPreferenceManager(this);
         if (remoteMessage == null)
             return;
 
@@ -46,6 +70,8 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                 Log.e(TAG, "Exception: " + e.getMessage());
             }
         }
+
+        init();
     }
 
     private void handleNotification(String message) {
@@ -85,6 +111,25 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                 }
             });*/
 
+
+            Intent intent1 = new Intent(MyFirebaseMessagingService.this, SplashScreen.class);
+            PendingIntent pIntent = PendingIntent.getActivity(MyFirebaseMessagingService.this, 0, intent1, 0);
+
+            NotificationCompat.Builder mBuilder;
+            NotificationManager mNotifyManager =(NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+            mBuilder = new NotificationCompat.Builder(MyFirebaseMessagingService.this);
+
+            mBuilder.setContentTitle(user_id)
+                    .setContentText(message)
+                    .setAutoCancel(true)
+                    .addAction(0, "Tap to View Notification", pIntent)
+                    .setSmallIcon(R.drawable.logo);
+
+
+            mNotifyManager.notify(100, mBuilder.build());
+
+
+
             PreferenceManager preferenceManager = PreferenceManager.getPreferenceManager(this);
             String loggedInStr =  preferenceManager.getUseridFromPref();
 
@@ -104,6 +149,28 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         } catch (Exception e) {
             Log.e(TAG, "Exception: " + e.getMessage());
         }
+    }
+
+
+    public void init() {
+
+        FcmNotificationcountInputModel fcmNotificationcountInputModel = new FcmNotificationcountInputModel();
+        fcmNotificationcountInputModel.setAuthToken(BuildConfig.AUTH_TOKEN);
+        fcmNotificationcountInputModel.setDevice_id(Settings.Secure.getString(getContentResolver(), Settings.Secure.ANDROID_ID));
+        FcmNotificationcountAsynTask fcmNotificationcountAsynTask = new FcmNotificationcountAsynTask(fcmNotificationcountInputModel,this,this);
+        fcmNotificationcountAsynTask.executeOnExecutor(threadPoolExecutor);
+
+    }
+
+    @Override
+    public void onFcmNotificationcountPreExecuteStarted() {
+
+    }
+
+    @Override
+    public void onFcmNotificationcountPostExecuteCompleted(FcmNotificationcountOutputModel fcmNotificationcountOutputModel, int count, String sucessMsg) {
+
+        preferenceManager.setNOTI_COUNT(count);
     }
 
 }

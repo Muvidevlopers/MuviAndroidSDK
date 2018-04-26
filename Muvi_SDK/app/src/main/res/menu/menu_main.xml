@@ -76,6 +76,10 @@
                 android:icon="@drawable/purchase_history"
                 android:title="Purchase History"/>
             <item
+                android:id="@+id/ic_notification"
+                android:icon="@drawable/ic_menu_notification1"
+                android:title="Notification(s)"/>
+            <item
                 android:id="@+id/action_mydownload"
                 android:icon="@drawable/action_download"
                 android:title="My Download"/>

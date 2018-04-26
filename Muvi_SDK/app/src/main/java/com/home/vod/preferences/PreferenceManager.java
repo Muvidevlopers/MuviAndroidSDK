@@ -29,6 +29,7 @@ public class PreferenceManager {
     public  final String PREFS_LOGIN_PROFILE_IMAGE_KEY = "loginProfImg";
     public  final String PREFS_LOGIN_HISTORYID_KEY = "loginHistId";
     public  final String PREFS_LOGIN_DATE = "date";
+    public  final String NOTI_COUNT = "noti_count";
 
 
     private PreferenceManager(Context mContext){
@@ -43,7 +44,14 @@ public class PreferenceManager {
         return preferenceManager;
     }
 
+    public void setNOTI_COUNT(int count) {
+        mEditor.putInt(NOTI_COUNT,count);
+        mEditor.commit();
+    }
 
+    public int getNOTI_COUNT() {
+        return mSharedPreferences.getInt(NOTI_COUNT,0);
+    }
 
 
     public String getUseridFromPref() {

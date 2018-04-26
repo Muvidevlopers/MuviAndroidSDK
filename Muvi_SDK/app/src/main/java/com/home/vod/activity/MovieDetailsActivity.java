@@ -427,6 +427,14 @@ public class MovieDetailsActivity extends AppCompatActivity implements LogoutAsy
 
                 // Not implemented here
                 return false;
+
+            case R.id.ic_notification:
+
+                Intent noti = new Intent(MovieDetailsActivity.this, Notification.class);
+                startActivity(noti);
+                // Not implemented here
+                return false;
+
             case R.id.action_login:
 
                 Intent loginIntent = new Intent(MovieDetailsActivity.this, LoginActivity.class);

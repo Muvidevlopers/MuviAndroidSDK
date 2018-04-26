@@ -399,5 +399,6 @@
     <dimen name="cc_button_padding_right">32dp</dimen>
     <dimen name="cc_button_padding_top">10dp</dimen>
     <dimen name="cc_button_padding_bottom">10dp</dimen>
+    <dimen name="badge_text_size">14sp</dimen>
 </resources>
 

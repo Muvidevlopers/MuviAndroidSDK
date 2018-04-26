@@ -662,16 +662,7 @@ public class HomeFragment extends Fragment implements
             mProgressBarHandler.hide();
             mProgressBarHandler = null;
         }
-     /*   *//***************chromecast**********************//*
-        mCastContext.addCastStateListener(mCastStateListener);
-        mCastContext.getSessionManager().addSessionManagerListener(
-                mSessionManagerListener, CastSession.class);
-        if (mCastSession == null) {
-            mCastSession = CastContext.getSharedInstance(context).getSessionManager()
-                    .getCurrentCastSession();
-        }
-        *//***************chromecast**********************//*
-*/
+
         getActivity().invalidateOptionsMenu();
 
     }

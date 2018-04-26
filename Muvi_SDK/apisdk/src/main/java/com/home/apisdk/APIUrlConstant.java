@@ -299,6 +299,15 @@ public class APIUrlConstant {
 
     public static final String GetSubCategoryList = "getSubCategoryList";
 
+    /* endpoint to get Notification Lists Details API*/
+    public static String notificationlists = "NotificationLists";
+
+
+    /* endpoint to get Read All Notification Details API*/
+    public static String readallnotification = "ReadAllNotification";
+    /* endpoint to get Notification Count Details API*/
+    public static String notificationcount = "GetNoOfUnreadNotification";
+
 
 
     public static String getGetSubCategoryList() {
@@ -560,6 +569,14 @@ public class APIUrlConstant {
     public static String getUpdateBufferLogUrl() {
         return BASE_URl + updateBufferLogUrl;
     }
-
+    public static String getNotificationcount() {
+        return BASE_URl + notificationcount;
+    }
+    public static String getNotificationLists() {
+        return BASE_URl + notificationlists;
+    }
+    public static String getReadallnotification() {
+        return BASE_URl + readallnotification;
+    }
 
 }

@@ -2,6 +2,7 @@ package com.home.vod;
 
 import android.app.Activity;
 
+import android.graphics.drawable.LayerDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -11,6 +12,7 @@ import com.google.android.gms.cast.framework.CastButtonFactory;
 import com.home.vod.preferences.LanguagePreference;
 import com.home.vod.preferences.PreferenceManager;
 import com.home.vod.util.FeatureHandler;
+import com.home.vod.util.Util;
 
 import static com.home.vod.preferences.LanguagePreference.BTN_REGISTER;
 import static com.home.vod.preferences.LanguagePreference.DEFAULT_BTN_REGISTER;
@@ -20,6 +22,7 @@ import static com.home.vod.preferences.LanguagePreference.DEFAULT_LOGIN;
 import static com.home.vod.preferences.LanguagePreference.DEFAULT_LOGOUT;
 import static com.home.vod.preferences.LanguagePreference.DEFAULT_MY_DOWNLOAD;
 import static com.home.vod.preferences.LanguagePreference.DEFAULT_MY_FAVOURITE;
+import static com.home.vod.preferences.LanguagePreference.DEFAULT_NOTIFICATION;
 import static com.home.vod.preferences.LanguagePreference.DEFAULT_PROFILE;
 import static com.home.vod.preferences.LanguagePreference.DEFAULT_PURCHASE_HISTORY;
 import static com.home.vod.preferences.LanguagePreference.HAS_FAVORITE;
@@ -28,6 +31,7 @@ import static com.home.vod.preferences.LanguagePreference.LOGIN;
 import static com.home.vod.preferences.LanguagePreference.LOGOUT;
 import static com.home.vod.preferences.LanguagePreference.MY_DOWNLOAD;
 import static com.home.vod.preferences.LanguagePreference.MY_FAVOURITE;
+import static com.home.vod.preferences.LanguagePreference.NOTIFICATION;
 import static com.home.vod.preferences.LanguagePreference.PROFILE;
 import static com.home.vod.preferences.LanguagePreference.PURCHASE_HISTORY;
 import static player.utils.Util.DEFAULT_IS_CHROMECAST;
@@ -61,7 +65,7 @@ public class EpisodeListOptionMenuHandler {
 
         MenuItem filter_menu, profile_menu, purchage_menu, logout_menu,
                 login_menu, register_menu, mydownload_menu, favorite_menu, mediaRouteMenuItem, menu_language,action_searchmenu
-                ,submenu;
+                ,submenu,ic_notification;
 
         filter_menu = menu.findItem(R.id.action_filter);
         menu_language = menu.findItem(R.id.menu_item_language);
@@ -72,6 +76,7 @@ public class EpisodeListOptionMenuHandler {
         register_menu = menu.findItem(R.id.action_register);
         mydownload_menu = menu.findItem(R.id.action_mydownload);
         favorite_menu = menu.findItem(R.id.menu_item_favorite);
+        ic_notification = menu.findItem(R.id.ic_notification);
         action_searchmenu=menu.findItem(R.id.action_search);
         submenu=menu.findItem(R.id.submenu);
 
@@ -90,6 +95,7 @@ public class EpisodeListOptionMenuHandler {
         mydownload_menu.setTitle(languagePreference.getTextofLanguage(MY_DOWNLOAD, DEFAULT_MY_DOWNLOAD));
         purchage_menu.setTitle(languagePreference.getTextofLanguage(PURCHASE_HISTORY, DEFAULT_PURCHASE_HISTORY));
         favorite_menu.setTitle(languagePreference.getTextofLanguage(MY_FAVOURITE, DEFAULT_MY_FAVOURITE));
+        ic_notification.setTitle(languagePreference.getTextofLanguage(NOTIFICATION, DEFAULT_NOTIFICATION));
 
         submenu.setVisible(true);
         action_searchmenu.setVisible(true);
@@ -148,5 +154,9 @@ public class EpisodeListOptionMenuHandler {
             favorite_menu.setVisible(false);
 
         }
+
+
+        LayerDrawable icon2 = (LayerDrawable) ic_notification.getIcon();
+        Util.setBadgeCount(activity, icon2, preferenceManager.getNOTI_COUNT());
     }
 }

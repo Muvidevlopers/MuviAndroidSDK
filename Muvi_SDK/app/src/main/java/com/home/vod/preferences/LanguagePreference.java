@@ -13,6 +13,16 @@ public class LanguagePreference {
     private SharedPreferences.Editor mEditor;
     private static LanguagePreference languagePreference;
 
+
+    //********Notification***********
+    public static String NO_NOTIFICATION = "NO_NOTIFICATION";
+    public static String NOTIFICATION_TITLE = "NOTIFICATION_TITLE";
+    public static  String DEFAULT_NO_NOTIFICATION = "No notification Sent.";
+    public static  String DEFAULT_NOTIFICATION_TITLE = "Notification (s)";
+
+    public static final String NOTIFICATION = "NOTIFICATION";
+    public static final String DEFAULT_NOTIFICATION = "Notification";
+
     /**
      * Language Constant default Key
      */

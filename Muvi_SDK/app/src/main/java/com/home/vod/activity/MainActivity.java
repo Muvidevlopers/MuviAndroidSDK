@@ -467,11 +467,19 @@ public class MainActivity extends ActionBarActivity implements FragmentDrawer.Fr
 
                 Intent favoriteIntent = new Intent(this, FavoriteActivity.class);
                 favoriteIntent.putExtra("sectionName",languagePreference.getTextofLanguage(MY_FAVOURITE, DEFAULT_MY_FAVOURITE));
-//                favoriteIntent.putExtra("LOGID",id);
                 favoriteIntent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(favoriteIntent);
                 // Not implemented here
                 return false;
+
+            case R.id.ic_notification:
+
+                Intent noti = new Intent(MainActivity.this, Notification.class);
+                startActivity(noti);
+                // Not implemented here
+                return false;
+
+
             case R.id.action_mydownload:
 
                 Intent mydownload = new Intent(MainActivity.this, MyDownloads.class);

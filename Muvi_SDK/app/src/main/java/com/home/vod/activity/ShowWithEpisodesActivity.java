@@ -3519,6 +3519,14 @@ public class ShowWithEpisodesActivity extends AppCompatActivity implements
 
                 // Not implemented here
                 return false;
+
+            case R.id.ic_notification:
+
+                Intent noti = new Intent(ShowWithEpisodesActivity.this, Notification.class);
+                startActivity(noti);
+                // Not implemented here
+                return false;
+
             case R.id.action_login:
 
                 Intent loginIntent = new Intent(ShowWithEpisodesActivity.this, LoginActivity.class);

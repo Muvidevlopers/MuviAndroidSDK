@@ -299,6 +299,9 @@
         <activity android:name=".activity.SupportActivity1"
             android:label=""
             android:screenOrientation="portrait"/>
+        <activity android:name=".activity.Notification"
+            android:label=""
+            android:screenOrientation="portrait"/>
 
         <meta-data
             android:name="io.fabric.ApiKey"
